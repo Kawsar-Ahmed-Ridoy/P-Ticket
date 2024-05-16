@@ -144,7 +144,7 @@
       >
         <div class="py-12 container mx-auto">
           <div class="text-center max-w-2xl mx-auto">
-            <h2 class="text-3xl font-bold text-center ">P.H Paribahan</h2>
+            <h2 class="text-3xl font-bold text-center">P.H Paribahan</h2>
             <p class="my-4">
               Yes, you can run unit tests and view the results directly within
               the app. The integrated testing features allow for a streamlined .
@@ -154,50 +154,224 @@
           <div class="bg-white rounded-xl px-8">
             <div class="flex justify-between">
               <div class="w-4/5">
-              <div class="flex justify-between  py-8">
-                <div class="flex gap-3">
-                  <img class="" src="images/bus-logo.png" alt="" />
-                  <div>
-                    <h1 class="font-bold text-2xl">Greenline Paribahan</h1>
-                    <p class="text-gray-500">Coach-009-WEB ! AC_Business</p>
+                <div class="flex justify-between py-8">
+                  <div class="flex gap-3">
+                    <img class="" src="images/bus-logo.png" alt="" />
+                    <div>
+                      <h1 class="font-bold text-2xl">Greenline Paribahan</h1>
+                      <p class="text-gray-500">Coach-009-WEB ! AC_Business</p>
+                    </div>
+                  </div>
+                  <div class="">
+                    <button
+                      class="btn ps-6 pe-6 bg-green-100 text-green-400 font-bold"
+                    >
+                      <img src="images/seat-green.png" alt="" />
+                      40 Seats left
+                    </button>
                   </div>
                 </div>
-                <div class="">
-                  <button
-                  class="btn ps-6 pe-6 bg-green-100 text-green-400 font-bold"
-                  >
-                  <img src="images/seat-green.png" alt="" />
-                  40 Seats left
-                </button>
+                <div class="bg-gray-50 rounded-2xl font-bold">
+                  <div class="flex justify-between p-6">
+                    <h4 class="text-gray-500">Route</h4>
+                    <span>Dhaka - Sylhet</span>
+                  </div>
+                  <hr />
+                  <div class="flex justify-between p-6">
+                    <h4 class="text-gray-500">Departure Time</h4>
+                    <span>9:00 PM</span>
+                  </div>
+                  <hr />
+                  <div class="flex justify-between p-6">
+                    <button class="btn bg-gray-200 px-8">
+                      Boarding Point - Laxmipur
+                    </button>
+                    <button class="btn bg-gray-200 px-8">
+                      Dropping Point - Bogura
+                    </button>
+                    <button class="btn bg-gray-200 px-8">
+                      Est. Time - 11 Hour
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <img src="images/info-devider.png" alt="" />
+              <div class="">
+                <div class="flex flex-col justify-center items-center h-full">
+                  <img src="images/fare.png" alt="" />
+                  <h2 class="font-bold text-2xl mt-4">550 Taka</h2>
+                  <span>Per Seat</span>
+                </div>
               </div>
             </div>
-            <div class="bg-gray-50 rounded-2xl font-bold">
-              <div class="flex justify-between p-6">
-                <h4 class="text-gray-500">Route</h4>
-                <span>Dhaka - Sylhet</span>
-              </div>
-              <hr>
-              <div class="flex justify-between p-6">
-                <h4 class="text-gray-500">Departure Time</h4>
-                <span>9:00 PM</span>
-              </div>
-              <hr>
-              <div class="flex justify-between p-6">
-                <button class="btn bg-gray-200 px-8">Boarding Point - Laxmipur</button>
-                <button class="btn bg-gray-200 px-8">Dropping Point - Bogura</button>
-                <button class="btn bg-gray-200 px-8">Est. Time - 11 Hour</button>
-              </div>
-            </div>
-            </div>
-            <img src="images/info-devider.png" alt="">
-            <div class="">
-              <div class="flex flex-col justify-center items-center h-full">
-                <img src="images/fare.png" alt="" />
-                <h2 class="font-bold text-2xl mt-4">550 Taka</h2>
-                <span>Per Seat</span>
-              </div>
-            </div>
+            <!-- second card -->
           </div>
+          <div class="bg-white rounded-xl px-8 mt-6">
+            <div class="flex justify-between">
+              <div class="w-3/5">
+                <div class="rounded-2xl font-bold">
+                  <div class="py-6">
+                    <h4 class="text-2xl">Select Your Seat</h4>
+                  </div>
+                  <hr />
+                  <div class="flex justify-between py-6">
+                    <button
+                      class="flex gap-2 text-gray-500 justify-center items-center border-none"
+                    >
+                      <img src="images/seat-gray.png" alt="" /> Available
+                    </button>
+                    <button
+                      class="flex gap-2 text-green-400 justify-center items-center border-none"
+                    >
+                      <img src="images/seat-green-filled.png" alt="" /> Selected
+                    </button>
+                  </div>
+                  <hr />
+                  <div class="flex justify-end py-6">
+                    <button class="btn bg-gray-200 px-8">
+                      <img src="images/car-steering-wheel.png" alt="" />
+                    </button>
+                  </div>
+                </div>
+                <div class="mb-4">
+                  <div class="flex gap-4 items-center justify-between">
+                    <div class="flex gap-4 items-center">
+                      <h6 class="w-4">A</h6>
+                      <button class="btn px-10 w-28" id="A1">A1</button>
+                      <button class="btn px-10 w-28" id="A2">A2</button>
+                    </div>
+                    <div class="flex gap-4">
+                      <button class="btn px-10 w-28" id="A3">A3</button>
+                      <button class="btn px-10 w-28" id="A4">A4</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="mb-4">
+                  <div class="flex gap-4 items-center justify-between">
+                    <div class="flex gap-4 items-center">
+                      <h6 class="w-4">B</h6>
+                      <button class="btn px-10 w-28" id="B1">B1</button>
+                      <button class="btn px-10 w-28" id="B2">B2</button>
+                    </div>
+                    <div class="flex gap-4">
+                      <button class="btn px-10 w-28" id="B3">B3</button>
+                      <button class="btn px-10 w-28" id="B4">B4</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="mb-4">
+                  <div class="flex gap-4 items-center justify-between">
+                    <div class="flex gap-4 items-center">
+                      <h6 class="w-4">C</h6>
+                      <button class="btn px-10 w-28" id="C1">C1</button>
+                      <button class="btn px-10 w-28" id="C2">C2</button>
+                    </div>
+                    <div class="flex gap-4">
+                      <button class="btn px-10 w-28" id="C3">C3</button>
+                      <button class="btn px-10 w-28" id="C4">C4</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="mb-4">
+                  <div class="flex gap-4 items-center justify-between">
+                    <div class="flex gap-4 items-center">
+                      <h6 class="w-4">D</h6>
+                      <button class="btn px-10 w-28" id="D1">D1</button>
+                      <button class="btn px-10 w-28" id="D2">D2</button>
+                    </div>
+                    <div class="flex gap-4">
+                      <button class="btn px-10 w-28" id="D3">D3</button>
+                      <button class="btn px-10 w-28" id="D4">D4</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="mb-4">
+                  <div class="flex gap-4 items-center justify-between">
+                    <div class="flex gap-4 items-center">
+                      <h6 class="w-4">E</h6>
+                      <button class="btn px-10 w-28" id="E1">E1</button>
+                      <button class="btn px-10 w-28" id="E2">E2</button>
+                    </div>
+                    <div class="flex gap-4">
+                      <button class="btn px-10 w-28" id="E3">E3</button>
+                      <button class="btn px-10 w-28" id="E4">E4</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="mb-4">
+                  <div class="flex gap-4 items-center justify-between">
+                    <div class="flex gap-4 items-center">
+                      <h6 class="w-4">F</h6>
+                      <button class="btn px-10 w-28" id="F1">F1</button>
+                      <button class="btn px-10 w-28" id="F2">F2</button>
+                    </div>
+                    <div class="flex gap-4">
+                      <button class="btn px-10 w-28" id="F3">F3</button>
+                      <button class="btn px-10 w-28" id="F4">F4</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="mb-4">
+                  <div class="flex gap-4 items-center justify-between">
+                    <div class="flex gap-4 items-center">
+                      <h6 class="w-4">G</h6>
+                      <button class="btn px-10 w-28" id="G1">G1</button>
+                      <button class="btn px-10 w-28" id="G2">G2</button>
+                    </div>
+                    <div class="flex gap-4">
+                      <button class="btn px-10 w-28" id="G3">G3</button>
+                      <button class="btn px-10 w-28" id="G4">G4</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="mb-4">
+                  <div class="flex gap-4 items-center justify-between">
+                    <div class="flex gap-4 items-center">
+                      <h6 class="w-4">H</h6>
+                      <button class="btn px-10 w-28" id="H1">H1</button>
+                      <button class="btn px-10 w-28" id="H2">H2</button>
+                    </div>
+                    <div class="flex gap-4">
+                      <button class="btn px-10 w-28" id="H3">H3</button>
+                      <button class="btn px-10 w-28" id="H4">H4</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="mb-4">
+                  <div class="flex gap-4 items-center justify-between">
+                    <div class="flex gap-4 items-center">
+                      <h6 class="w-4">I</h6>
+                      <button class="btn px-10 w-28" id="I1">I1</button>
+                      <button class="btn px-10 w-28" id="I2">I2</button>
+                    </div>
+                    <div class="flex gap-4">
+                      <button class="btn px-10 w-28" id="I3">I3</button>
+                      <button class="btn px-10 w-28" id="I4">I4</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="mb-4">
+                  <div class="flex gap-4 items-center justify-between">
+                    <div class="flex gap-4 items-center">
+                      <h6 class="w-4">J</h6>
+                      <button class="btn px-10 w-28" id="J1">J1</button>
+                      <button class="btn px-10 w-28" id="J2">J2</button>
+                    </div>
+                    <div class="flex gap-4">
+                      <button class="btn px-10 w-28" id="J3">J3</button>
+                      <button class="btn px-10 w-28" id="J4">J4</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <img src="images/info-devider.png" alt="" />
+              <div class="">
+                <div class="flex flex-col justify-center items-center h-full">
+                  <img src="images/fare.png" alt="" />
+                  <h2 class="font-bold text-2xl mt-4">550 Taka</h2>
+                  <span>Per Seat</span>
+                </div>
+              </div>
             </div>
           </div>
         </div>
