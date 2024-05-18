@@ -385,39 +385,26 @@
                     </div>
                     <hr />
                     <div id="seat-number" class="">
-                      <!-- <div 
-                      class="flex justify-between my-4 gap-x-16 text-gray-500 font-normal "
-                    >
-                      <span id="single-seat">C2</span>
-                      <span>Economy</span>
-                      <span>550</span>
-                    </div> -->
                     </div>
-                    <!-- <div
-                      class="flex justify-between my-4 gap-x-16 text-gray-700 font-normal"
-                    >
-                      <span>C2</span>
-                      <span>Economoy</span>
-                      <span>550</span>
-                    </div> -->
                     <hr />
                     <div class="flex justify-between my-4">
                       <h4>Total Price</h4>
-                      <h4>BDT <span>1100</span></h4>
+                      <h4>BDT <span id="total-price">0</span></h4>
                     </div>
-                    <label class="input flex items-center py-8 px-2">
-                      <input
+                    <div id="discount-price" class="my-2 flex justify-between"></div>
+                    <label id="input-hide" class="input flex items-center py-8 px-2">
+                      <input id="input-coupon"
                         type="text"
                         class=""
                         placeholder="Have any coupon?"
                       />
-                      <button class="btn px-4 bg-green-400 text-white">
+                      <button onclick="discountTotal()" class="btn px-4 bg-green-400 text-white">
                         Apply
                       </button>
                     </label>
                     <div class="flex justify-between mt-4">
                       <h4>Grand Total</h4>
-                      <h4>BDT <span>1100</span></h4>
+                      <h4>BDT <span id="grand-total">0</span></h4>
                     </div>
                   </div>
                   <div class="mt-2">
